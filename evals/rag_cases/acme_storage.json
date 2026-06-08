@@ -1,0 +1,17 @@
+{
+  "case": "acme_storage",
+  "title": "Staff Platform Engineer — Storage",
+  "role_centre": "storage_infrastructure",
+  "jd_excerpt": "Own distributed block storage and Ceph clusters. Filesystem internals, network storage cluster design, petabyte-scale stateful workloads. Platform engineering background required.",
+  "expected_missing": [
+    "Ceph",
+    "distributed block storage",
+    "filesystem internals",
+    "network storage cluster design"
+  ],
+  "expected_adjacent": [
+    "distributed systems",
+    "platform engineering"
+  ],
+  "expected_decision_support": "platform CV must not strong-match storage specialist requirements"
+}

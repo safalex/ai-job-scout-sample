@@ -1,0 +1,15 @@
+candidate:
+  location: Remote
+  timezone: UTC
+  cv_skills_summary: >
+    Senior backend engineer with production APIs, internal platforms, Python/FastAPI,
+    PostgreSQL, Docker, Kubernetes, and applied AI tooling (LiteLLM, RAG workflows).
+skill_confidence:
+  strongest: [LiteLLM, Python, PostgreSQL, Docker]
+  professional: [Kubernetes, TypeScript, Node.js, GraphQL, Redis]
+  missing_or_avoid_overclaiming: [Ceph, block storage, filesystem internals]
+pipeline:
+  requirement_rag_enabled: true
+  requirement_rag_per_req_top_k: 3
+  requirement_rag_max_requirements: 8
+  job_evidence_top_k: 12

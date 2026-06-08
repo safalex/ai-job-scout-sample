@@ -1,0 +1,57 @@
+=== Requirement-level RAG demo ===
+Job: Staff Platform Engineer — Storage @ Acme Cloud
+Role centre: storage_infrastructure
+
+- Ceph production clusters
+  coverage: missing
+  reason: Retrieved related chunks but none qualify as direct evidence.
+  inspected chunks (retrieved but insufficient): chunk#201, chunk#202, chunk#301
+
+- distributed block storage
+  coverage: missing
+  reason: Retrieved related chunks but none qualify as direct evidence.
+  inspected chunks (retrieved but insufficient): chunk#202, chunk#101, chunk#301
+
+- filesystem internals
+  coverage: missing
+  reason: Retrieved related chunks but none qualify as direct evidence.
+  inspected chunks (retrieved but insufficient): chunk#201, chunk#101, chunk#102
+
+- network storage cluster design
+  coverage: missing
+  reason: Retrieved related chunks but none qualify as direct evidence.
+  inspected chunks (retrieved but insufficient): chunk#202, chunk#102, chunk#201
+
+- Experience with Python
+  coverage: strong
+  reason: Direct evidence for Experience with Python.
+  evidence: chunk#202, chunk#102, chunk#201
+
+Summary buckets:
+  direct: ['Experience with Python']
+  adjacent: []
+  missing/risk: ['Ceph production clusters', 'distributed block storage', 'filesystem internals', 'network storage cluster design']
+
+{
+  "role_centre": "storage_infrastructure",
+  "requirement_coverage": [
+    {
+      "requirement": "Ceph production clusters",
+      "requirement_id": "req_001",
+      "importance": "specialist",
+      "coverage": "missing",
+      "evidence_chunks": [],
+      "inspected_chunks": [
+        {
+          "chunk_id": 201,
+          "source": "Example Labs / AI Platform Engineer",
+          "text_excerpt": "AI Platform Engineer \u2014 LLM orchestration with LiteLLM, RAG-style retrieval, structured outputs, agentic workflows, and evaluation loops in production.",
+          "reason": "Retrieved but insufficient \u2014 hybrid relevance 0.23; specialist requirement needs direct proof, not adjacent platform language",
+          "used_as_evidence": false
+        },
+        {
+          "chunk_id": 202,
+          "source": "demo_ai_platform_engineer",
+          "text_excerpt": "ENGINEERING LEADERSHIP \u2014 Technical leadership, distributed teams, architecture reviews, mentoring engineers through delivery.",
+          "reason": "Retrieved but insufficient \u2014 hybrid relevance 0.12; specialist requirement needs direct proof, not adjacent platform language",
+          "used_as_evidence": false ...

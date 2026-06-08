@@ -1,0 +1,65 @@
+{
+  "chunks": [
+    {
+      "chunk_id": 101,
+      "document_id": 1,
+      "path": "fixtures/cv/demo_platform_engineer.pdf",
+      "content": "Platform Engineer at Previous Co — built Kubernetes internal developer platforms, REST APIs, and event-driven workers for distributed systems at scale.",
+      "metadata": {
+        "stable_chunk_id": "demo_platform_001",
+        "section": "Work Experience",
+        "chunk_type": "experience_bullet",
+        "role": "Platform Engineer",
+        "company": "Previous Co"
+      }
+    },
+    {
+      "chunk_id": 102,
+      "document_id": 1,
+      "path": "fixtures/cv/demo_platform_engineer.pdf",
+      "content": "TECHNICAL SKILLS — Python, FastAPI, TypeScript, Node.js, PostgreSQL, Docker, Kubernetes, Redis, OpenSearch, CI/CD, GitHub Actions.",
+      "metadata": {
+        "stable_chunk_id": "demo_platform_002",
+        "section": "Skills",
+        "chunk_type": "skills"
+      }
+    },
+    {
+      "chunk_id": 201,
+      "document_id": 2,
+      "path": "fixtures/cv/demo_ai_platform_engineer.pdf",
+      "content": "AI Platform Engineer — LLM orchestration with LiteLLM, RAG-style retrieval, structured outputs, agentic workflows, and evaluation loops in production.",
+      "metadata": {
+        "stable_chunk_id": "demo_ai_001",
+        "section": "Work Experience",
+        "chunk_type": "experience_bullet",
+        "role": "AI Platform Engineer",
+        "company": "Example Labs"
+      }
+    },
+    {
+      "chunk_id": 202,
+      "document_id": 2,
+      "path": "fixtures/cv/demo_ai_platform_engineer.pdf",
+      "content": "ENGINEERING LEADERSHIP — Technical leadership, distributed teams, architecture reviews, mentoring engineers through delivery.",
+      "metadata": {
+        "stable_chunk_id": "demo_ai_002",
+        "section": "Engineering Leadership",
+        "chunk_type": "experience_bullet"
+      }
+    },
+    {
+      "chunk_id": 301,
+      "document_id": 3,
+      "path": "fixtures/cv/demo_ecommerce_engineer.pdf",
+      "content": "Ecommerce integrations — Adobe Commerce module development, Shopify migration, payment and logistics API integrations, OpenSearch sync for catalog data.",
+      "metadata": {
+        "stable_chunk_id": "demo_ecom_001",
+        "section": "Work Experience",
+        "chunk_type": "experience_bullet",
+        "role": "Integrations Engineer",
+        "company": "Commerce Co"
+      }
+    }
+  ]
+}
