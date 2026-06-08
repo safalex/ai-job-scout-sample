@@ -161,15 +161,6 @@ Fixtures in `fixtures/` and `evals/` are fictional only.
 
 ---
 
-## What I would improve next
-
-1. Live LLM requirement extraction with strict Pydantic schema validation
-2. Cross-encoder reranker per requirement
-3. Broader eval harness (precision/recall on coverage buckets)
-4. Outcome calibration — log apply/review/skip against predictions
-
----
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
